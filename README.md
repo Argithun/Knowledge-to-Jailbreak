@@ -10,10 +10,9 @@ Data and Code for the paper, Knowledge-to-Jailbreak: One Knowledge Point Worth O
 
 <p align="justify">
 
-    * 📖 Paper: [Knowledge-to-Jailbreak: One Knowledge Point Worth One Attack](https://arxiv.org/pdf/2406.11682)
+* 📖 Paper: [Knowledge-to-Jailbreak: One Knowledge Point Worth One Attack](https://arxiv.org/pdf/2406.11682)
 
-
-    * 🐧 Jailbreak Generator in the 🤗HuggingFace Hub: [Jailbreak Generator](https://huggingface.co/tsq2000/Jailbreak-generator)
+* 🐧 Jailbreak Generator in the 🤗HuggingFace Hub: [Jailbreak Generator](https://huggingface.co/tsq2000/Jailbreak-generator)
 
 </p>
 
