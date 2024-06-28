@@ -2,14 +2,19 @@
 ----------------------
 Data and Code for the paper, Knowledge-to-Jailbreak: One Knowledge Point Worth One Attack.
 
+<p align="center">
+    <a href="https://arxiv.org/pdf/2406.11682"><img alt="Paper" src="https://img.shields.io/badge/📖-Paper-orange"></a>
+    <a href="https://huggingface.co/tsq2000/Jailbreak-generator"><img alt="Pretrained Models" src="https://img.shields.io/badge/🤗HuggingFace-Pretrained Models-green"></a>
+    <a href="https://github.com/THU-KEG"><img src="https://img.shields.io/badge/THU-KEG_Group-blueviolet"></a>
+</p>
 
-## Installation
-----------------------
-To download the repo to the local machine, run the following command:
-```bash
-git clone <link>
-cd Knowledge-to-Jailbreak
-```
+<p align="justify">
+We introduce <b>ADELIE</b> (<b>A</b>ligning large language mo<b>DEL</b>s on <b>I</b>nformation <b>E</b>xtraction), an aligned LLM that effectively solves various IE tasks, including closed IE, open IE, and on-demand IE. We first collect and construct a high-quality alignment corpus <font face="Verdana">IEInstruct</font> for IE. Then we train ADELIE<sub>SFT</sub> using instruction tuning on <font face="Verdana">IEInstruct</font>. We further train ADELIE<sub>SFT</sub> with direct preference optimization (DPO) objective, resulting in ADELIE<sub>DPO</sub>. Extensive experiments on various held-out IE datasets demonstrate that our models (ADELIE<sub>SFT</sub> and ADELIE<sub>DPO</sub>) achieve state-of-the-art (SoTA) performance among open-source models. We further explore the general capabilities of ADELIE, and experimental results reveal that their general capabilities do not exhibit a noticeable decline.
+
+- 📖 Paper: [Knowledge-to-Jailbreak: One Knowledge Point Worth One Attack](https://arxiv.org/pdf/2406.11682)
+- 🐧 ADELIE in the 🤗HuggingFace Hub: [Jailbreak Generator](https://huggingface.co/tsq2000/Jailbreak-generator)
+</p>
+
 
 ## How to generate training data
 ---------------------
